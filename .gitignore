@@ -1,0 +1,20 @@
+# Leave entire .idea folder and project folder
+.idea/*
+*/.idea/*
+*project
+*/*.iml
+
+# Leave log files
+*app-logs*
+*derby.log
+
+*/.bsp*
+
+# Leave target directory
+*/target/*
+*/metastore_db*
+*/spark-warehouse*
+*/output*
+*/data/*
+*/dataSink/*
+*/metastore_db/*
